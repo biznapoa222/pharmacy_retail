@@ -1,0 +1,15 @@
+{
+  "doctype": "DocType",
+  "name": "Bank Statement Upload",
+  "module": "Pharmacy Retail",
+  "custom": 0,
+  "fields": [
+    {"fieldname": "statement_date", "label": "Statement Date", "fieldtype": "Date", "reqd": 1},
+    {"fieldname": "bank_account", "label": "Bank Account", "fieldtype": "Data", "reqd": 1},
+    {"fieldname": "file", "label": "Statement File", "fieldtype": "Attach", "reqd": 1},
+    {"fieldname": "lines", "label": "Lines", "fieldtype": "Table", "options": "Bank Statement Line", "reqd": 0}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+  ]
+}

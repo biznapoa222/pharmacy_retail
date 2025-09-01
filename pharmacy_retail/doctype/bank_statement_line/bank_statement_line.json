@@ -1,0 +1,14 @@
+{
+  "doctype": "DocType",
+  "name": "Bank Statement Line",
+  "module": "Pharmacy Retail",
+  "istable": 1,
+  "custom": 0,
+  "fields": [
+    {"fieldname": "date", "label": "Date", "fieldtype": "Date", "reqd": 1},
+    {"fieldname": "description", "label": "Description", "fieldtype": "Data"},
+    {"fieldname": "amount", "label": "Amount", "fieldtype": "Currency"},
+    {"fieldname": "matched", "label": "Matched", "fieldtype": "Check"},
+    {"fieldname": "reference", "label": "Reference", "fieldtype": "Data"}
+  ]
+}
