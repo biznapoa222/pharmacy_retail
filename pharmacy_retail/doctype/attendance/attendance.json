@@ -1,0 +1,22 @@
+{
+    "doctype": "DocType",
+    "name": "Attendance",
+    "module": "Pharmacy Retail",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "employee", "fieldtype": "Link", "label": "Employee", "options": "Employee", "reqd": 1},
+        {"fieldname": "attendance_date", "fieldtype": "Date", "label": "Date", "reqd": 1},
+        {"fieldname": "clock_in", "fieldtype": "Time", "label": "Clock In"},
+        {"fieldname": "clock_out", "fieldtype": "Time", "label": "Clock Out"},
+        {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Present\nAbsent\nHalf Day"}
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+} 

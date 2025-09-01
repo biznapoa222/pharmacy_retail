@@ -1,0 +1,21 @@
+{
+    "doctype": "DocType",
+    "name": "Item",
+    "module": "Pharmacy Retail",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "item_name", "fieldtype": "Data", "label": "Item Name", "reqd": 1},
+        {"fieldname": "item_code", "fieldtype": "Data", "label": "Item Code", "reqd": 1},
+        {"fieldname": "description", "fieldtype": "Small Text", "label": "Description"},
+        {"fieldname": "price", "fieldtype": "Currency", "label": "Price", "reqd": 1}
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+} 

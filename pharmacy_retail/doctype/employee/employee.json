@@ -1,0 +1,22 @@
+{
+    "doctype": "DocType",
+    "name": "Employee",
+    "module": "Pharmacy Retail",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "employee_name", "fieldtype": "Data", "label": "Employee Name", "reqd": 1},
+        {"fieldname": "user_id", "fieldtype": "Link", "label": "User ID", "options": "User"},
+        {"fieldname": "branch", "fieldtype": "Link", "label": "Branch", "options": "Branch"},
+        {"fieldname": "designation", "fieldtype": "Data", "label": "Designation"},
+        {"fieldname": "date_of_joining", "fieldtype": "Date", "label": "Date of Joining"}
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+} 

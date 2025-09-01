@@ -1,0 +1,8 @@
+app_name = "pharmacy_retail"
+app_title = "Pharmacy Retail"
+app_publisher = "Your Name"
+app_description = "Multi-branch pharmacy retail POS & HRM app for Frappe"
+app_icon = "octicon octicon-home"
+app_color = "blue"
+app_email = "your@email.com"
+app_license = "MIT"
